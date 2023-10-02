@@ -21,8 +21,8 @@ jobs:
 
       - name: Build and push Docker image
         run: |
-          docker build -t ubairnisar/mlops:latest .
-          docker push ubairnisar/mlops:latest
+          docker build -t aliishah05/mlops:latest .
+          docker push aliishah05/mlops:latest
 
       - name: Run Docker container
         run: |
